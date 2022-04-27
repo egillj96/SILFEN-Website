@@ -40,6 +40,10 @@
   text-decoration: none;
 }
 
+.navigation-container .nav-logo {
+  margin-right: 80px;
+}
+
 .navigation-container .nav-actions a {
   color: black;
   margin-left: 15px;
@@ -77,4 +81,140 @@
   background-color: white;
   text-decoration: none;
   padding: 14px 40px;
+}
+
+#front-page-products {
+  margin-top: 80px;
+  padding: 0px 40px;
+}
+
+#front-page-products > div ul {
+  display: flex;
+  list-style-type: none;
+}
+
+#front-page-products > div ul li {
+  margin-right: 25px;
+}
+
+#front-page-products > div ul a {
+  color: rgb(143, 143, 143);
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#front-page-products > div ul li:first-child a {
+  color: black;
+}
+
+#front-page-products .featured-products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+#front-page-products .featured-products .product img {
+  width: 200px;
+}
+
+#fav-bag {
+  margin-top: 120px;
+  display: flex;
+}
+
+#fav-bag > div {
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+  width: 40%;
+  top: 200px;
+}
+
+#fav-bag > div a {
+  padding: 16px 36px;
+  background-color: #6ec1e4;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  align-self: center;
+  text-align: center;
+}
+
+#fav-bag img {
+  opacity: 0.65;
+  filter: brightness(100%) contrast(100%) saturate(100%) blur(0px)
+    hue-rotate(0deg);
+}
+
+#fav-bag p {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+#sustainability {
+  margin-top: 120px;
+  position: relative;
+}
+
+#sustainability img {
+  opacity: 0.65;
+  filter: brightness(100%) contrast(100%) saturate(100%) blur(0px)
+    hue-rotate(0deg);
+}
+
+#sustainability div {
+  position: absolute;
+  top: 30%;
+  left: 45%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+#sustainability div p {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+#sustainability div a {
+  padding: 16px 36px;
+  background-color: #6ec1e4;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  align-self: center;
+}
+
+#zero-impact {
+  margin-top: 120px;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  column-gap: 60px;
+  padding: 0px 160px;
+}
+
+#zero-impact > div h2 {
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+#zero-impact > div p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 1.5rem;
+  color: #7a7a7a;
+}
+
+#zero-impact > div > a {
+  color: black;
+  font-size: 1.1rem;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+}
+
+#front-page-links {
+  display: flex;
+  margin-top: 120px;
 }
