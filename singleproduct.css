@@ -1,3 +1,8 @@
+/* font-family: 'Inter', sans-serif; */
+:root {
+    --main-font: 'Inter', sans-serif;
+}
+
 .color {
     border: 1.3px solid black;
     border-radius: 50%;
@@ -52,6 +57,71 @@
     justify-content: center;
 }
 
-footer {
+h1 {
+    font-family: var(--main-font);
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 200;
+}
 
+.price {
+    font-family: var(--main-font);
+    font-size: 17px;
+    line-height: 23px;
+    font-weight: lighter;
+}
+
+.description {
+    color: rgba(0,0,0,0.51);
+    font-family: var(--main-font);
+}
+
+h3 {
+    font-family: var(--main-font);
+    font-size: 15px;
+}
+
+.color {
+    background-color: aqua;
+}
+
+.quantity{
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0,0,0,0.11);
+}
+.quantity input {
+    border: 0;
+    width: 30px;
+    text-align: center;
+}
+.input {
+    width: 10px;
+}
+
+.down, .up {
+    font-family: var(--main-font);
+    font-weight: lighter;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.add-to-cart {
+    display: flex;
+    margin-left: 0.8rem;
+    margin-top: 1rem;
+}
+
+.add-to-cart button {
+    font-family: var(--main-font);
+    bottom: 0;
+    left: 0;
+    width: calc(100% - 74px);
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-left: 1.5rem;
 }
