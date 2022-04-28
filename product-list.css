@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.productList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+
+  gap: 1rem;
+}
+
+.product {
+  border: 1px solid red;
+  font-family: "Inter", sans-serif;
+}
+
+.productImage {
+  width: 100%;
+  border-bottom: 1px solid red;
+  padding: 45px 0;
+}
+
+.productInfo {
+}
+
+.cardTitle {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.cardPrice {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 20px;
+}
