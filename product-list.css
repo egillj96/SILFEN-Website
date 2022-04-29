@@ -5,20 +5,51 @@
 
 .productList {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
 
   gap: 1rem;
 }
 
 .product {
-  border: 1px solid red;
   font-family: "Inter", sans-serif;
+  position: relative;
+}
+
+.colors {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.colorContainer {
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  border: 1px solid black;
+}
+
+.colorContainer span {
+  display: flex;
+  border-radius: 100%;
+  border: 1px solid white;
+  /* background-color: green; */
+  width: 90%;
+  height: 90%;
+}
+
+.secondContainer {
+}
+
+.listImage {
+  background-color: #f2f2f2 !important;
 }
 
 .productImage {
   width: 100%;
-  border-bottom: 1px solid red;
   padding: 45px 0;
+  filter: contrast(90%);
 }
 
 .productInfo {
