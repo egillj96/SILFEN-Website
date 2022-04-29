@@ -14,4 +14,19 @@ var flkty = new Flickity(".carousel", {
   // options
 });
 
-console.log("HELLO");
+var burger = document.querySelector(".burger-container");
+var mobileNav = document.querySelector(".mobile-nav");
+burger.addEventListener("click", changeBurger);
+
+function changeBurger() {
+  this.classList.toggle("change");
+  mobileNav.classList.toggle("show");
+}
+
+//animations
+
+gsap.from("#fav-bag div", {
+  x: -400,
+  duration: 1,
+  scrollTrigger: "#fav-bag",
+});
