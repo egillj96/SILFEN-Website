@@ -382,15 +382,10 @@ footer div {
 
 @media screen and (max-width: 760px) {
     .product {
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
+        display: block;
     }
     .sticky-scroll {
         display: none;
-    }
-    .scroll-product {
-        grid-row: 1/2;
-        
     }
     .pics img {
         width: 10%;
@@ -399,21 +394,33 @@ footer div {
         display: block;
     }
     footer div {
-        width: 100%;
+        width: 90%;
     }
     .come-join {
-        width: 100%;
+        width: 90%;
     }
     .contacts {
-        width: 100%;
+        width: 90%;
     }
     .warehouse, .help {
-        width: 100%;
+        width: 90%;
     }
     .come-join input {
-        width: 100%;
+        width: 80%;
     }
     footer div h6 {
         margin-top: 5rem;
+    }
+    .text {
+        top: 0;
+        position: -webkit-sticky;
+        position: sticky;
+        height: auto; 
+    }
+    .scroll-product {
+        grid-row: 1/2;
+    }
+    .scroll-product img {
+        width: 100%;
     }
 }
