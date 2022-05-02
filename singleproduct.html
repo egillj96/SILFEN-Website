@@ -4,8 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="singleproduct.css" />
-    <link rel="stylesheet" href="front-page-styles.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="product-list.css" />
     <title>Crossbody Bag Bibbi – Winter</title>
     <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
     <style>
@@ -226,57 +229,86 @@
     </article>
     <section class="related">
       <h5>Related Products</h5>
-      <!-- <template></template>  the template -->
-      <div class="cards-rp">
-        <div class="related-product">
-          <div class="background-color">
-            <img src="img/bag.webp" alt="front" />
-            <div class="color-rp">
-              <p></p>
+      <div class="productList">
+        <template>
+          <div class="productCard">
+            <div class="colors">
+              <div class="colorContainer">
+                <span class="color"></span>
+              </div>
             </div>
-            <button class="add-to-cart1">Add to cart</button>
-          </div>
-          <h6 class="name-of-rp">Bibbi Bag</h6>
-          <p class="price1"><span>DKK</span>599,00</p>
-        </div>
-
-        <div class="related-product">
-          <div class="background-color">
-            <img src="img/bag.webp" alt="front" />
-            <div class="color-rp">
-              <p></p>
+            <div class="listImage">
+              <a class="productLink" href="singleproduct.html">
+                <img
+                  class="productImage"
+                  src="https://silfenstudio.com/wp-content/uploads/2022/01/519711_MALIBU-BLUE_FRONT.jpg"
+                  alt=""
+                />
+                <img class="productImage2" src="" alt="" />
+              </a>
             </div>
-            <button class="add-to-cart1">Add to cart</button>
-          </div>
-          <h6 class="name-of-rp">Bibbi Bag</h6>
-          <p class="price1"><span>DKK</span>599,00</p>
-        </div>
-
-        <div class="related-product">
-          <div class="background-color">
-            <img src="img/bag.webp" alt="front" />
-            <div class="color-rp">
-              <p></p>
+            <div class="productInfo">
+              <a class="cardTitle productLink" href="singleproduct.html"
+                >Crossbody Bag Bibbi</a
+              >
+              <a class="cardPrice productLink" href="singleproduct.html"
+                >DKK 599</a
+              >
             </div>
-            <button class="add-to-cart1">Add to cart</button>
           </div>
-          <h6 class="name-of-rp">Bibbi Bag</h6>
-          <p class="price1"><span>DKK</span>599,00</p>
-        </div>
-
-        <div class="related-product">
-          <div class="background-color">
-            <img src="img/bag.webp" alt="front" />
-            <div class="color-rp">
-              <p></p>
-            </div>
-            <button class="add-to-cart1">Add to cart</button>
-          </div>
-          <h6 class="name-of-rp">Bibbi Bag</h6>
-          <p class="price1"><span>DKK</span>599,00</p>
-        </div>
+        </template>
       </div>
+      <!-- <div class="cards-rp">
+        <div class="related-product">
+          <div class="background-color">
+            <img src="img/bag.webp" alt="front" />
+            <div class="color-rp">
+              <p></p>
+            </div>
+            <button class="add-to-cart1">Add to cart</button>
+          </div>
+          <h6 class="name-of-rp">Bibbi Bag</h6>
+          <p class="price1"><span>DKK</span>599,00</p>
+        </div>
+
+        <div class="related-product">
+          <div class="background-color">
+            <img src="img/bag.webp" alt="front" />
+            <div class="color-rp">
+              <p></p>
+            </div>
+            <button class="add-to-cart1">Add to cart</button>
+          </div>
+          <h6 class="name-of-rp">Bibbi Bag</h6>
+          <p class="price1"><span>DKK</span>599,00</p>
+        </div>
+
+        <div class="related-product">
+          <div class="background-color">
+            <img src="img/bag.webp" alt="front" />
+            <div class="color-rp">
+              <p></p>
+            </div>
+            <button class="add-to-cart1">Add to cart</button>
+          </div>
+          <h6 class="name-of-rp">Bibbi Bag</h6>
+          <p class="price1"><span>DKK</span>599,00</p>
+        </div>
+
+        <div class="related-product">
+          <div class="background-color">
+            <img src="img/bag.webp" alt="front" />
+            <div class="color-rp">
+              <p></p>
+            </div>
+            <button class="add-to-cart1">Add to cart</button>
+          </div>
+          <h6 class="name-of-rp">Bibbi Bag</h6>
+          <p class="price1"><span>DKK</span>599,00</p>
+        </div>
+      </div> -->
     </section>
+
     <footer>
       <div class="upper-footer">
         <div class="come-join">
@@ -397,5 +429,6 @@
     </footer>
   </body>
   <script src="js/counter.js"></script>
-  <script src="singleproduct.js"></script>
+  <!-- <script src="singleproduct.js"></script> -->
+  <script src="productList.js"></script>
 </html>
