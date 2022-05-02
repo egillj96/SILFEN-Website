@@ -17,6 +17,9 @@ function setupProducts(products){
         copy.querySelector(".productImage").src = product.list_image1;
         copy.querySelector(".productImage2").src = product.list_image2;
 
+        copy.querySelector(".productLink").href = `singleproduct.html?id=${product.id}`;
+
+
         copy.querySelector(".cardTitle").textContent = product.title.rendered;
         copy.querySelector(".cardPrice").textContent = `DKK ${product.price}`;
         
@@ -26,4 +29,3 @@ function setupProducts(products){
         parentElement.appendChild(copy);
     })
 }
-
