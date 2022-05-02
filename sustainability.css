@@ -1,0 +1,122 @@
+#sustainability-hero {
+  display: flex;
+  justify-content: center;
+  column-gap: 100px;
+  margin-top: 40px;
+}
+
+#sustainability-hero > div:first-child {
+  width: 42%;
+  margin-top: 40px;
+}
+
+#sustainability-hero > div:first-child p {
+  margin-top: 30px;
+  margin-bottom: 70px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 300;
+}
+
+#sustainability-hero > div:first-child h2 {
+  font-weight: 300;
+  font-size: 1.8rem;
+}
+
+#sustainability-hero > div:last-child img {
+  object-fit: cover;
+}
+
+#sustainability-hero h1 {
+  font-size: 3.5rem;
+  line-height: 3.8rem;
+}
+
+#sustainability-video {
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  column-gap: 80px;
+}
+#sustainability-video video {
+  width: 40% !important;
+  height: auto !important;
+}
+
+#sustainability-video h2 {
+  font-weight: 300;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+#sustainability-video h3 {
+  font-weight: 300;
+  font-size: 1.2rem;
+  width: 70%;
+}
+
+#sustainability-video div {
+  margin-top: 20px;
+  width: 40%;
+}
+
+#sustainability-future {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+}
+
+#sustainability-future div {
+  display: flex;
+  padding: 0 100px;
+  column-gap: 30px;
+  justify-content: center;
+}
+
+#sustainability-future div p {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 300;
+  width: 40%;
+}
+
+#sustainability-future h2 {
+  font-weight: 300;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#sustainability-water {
+  margin-top: 120px;
+}
+
+#sustainability-water > div {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+#sustainability-water > div > div {
+  position: absolute;
+  top: 30px;
+}
+
+#sustainability-water > div img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+#sustainability-water h2 {
+  font-weight: 300;
+  font-size: 6rem;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+#sustainability-water h3 {
+  font-weight: 300;
+  font-size: 2.6rem;
+  margin-bottom: 20px;
+}
