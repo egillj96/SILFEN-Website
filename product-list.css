@@ -6,13 +6,15 @@
 .productList {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
-
   gap: 1rem;
+  margin: 0 1rem;
 }
 
 .product {
   font-family: "Inter", sans-serif;
   position: relative;
+  text-decoration: none;
+  color: black;
 }
 
 .colors {
@@ -46,13 +48,25 @@
   background-color: #f2f2f2 !important;
 }
 
-.productImage {
+.productImage,
+.productImage2 {
   width: 100%;
-  padding: 45px 0;
+  margin: 45px 0;
   filter: contrast(90%);
 }
 
+.productImage2 {
+  display: none;
+}
+
 .productInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.productInfo a {
+  text-decoration: none;
+  color: black;
 }
 
 .cardTitle {
