@@ -55,6 +55,47 @@ p {
 
 .map img {
     width: 60%;
-    
     margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 980px) {
+    .titlesection, .text1 {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .title {
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    h1 {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .working_conditions img {
+        height: 40%;
+        width: 300px; 
+        margin: auto;
+    }
+    .text2 {
+        flex-direction: column-reverse;
+    }
+    .text1 img, .text2 img {
+        width: 80%;
+        margin: auto;
+    }
+    .text1 p, .text2 p {
+       margin-top: 5rem;
+       text-align: center;
+    }
+    .text1, .text2 {
+        margin: 3rem 0 5rem;
+        
+    }
+    .map img {
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+    h2 {
+        font-size: 20px;
+    }
 }
