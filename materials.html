@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="materials.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="header.css" />
+    <script
+      src="https://kit.fontawesome.com/137a8d32f0.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
     <title>materials</title>
   </head>
   <body>
@@ -27,7 +35,7 @@
           <nav>
             <ul>
               <li><a href="#">New In</a></li>
-              <li><a href="#">Shop</a></li>
+              <li><a href="product-list.html">Shop</a></li>
               <li><a href="#">About</a></li>
               <li><a href="#">Silfen Play</a></li>
               <li><a href="#">SS22</a></li>
@@ -39,7 +47,7 @@
           <nav>
             <ul>
               <li><a href="#">New In</a></li>
-              <li><a href="#">Shop</a></li>
+              <li><a href="product-list.html">Shop</a></li>
               <li><a href="#">About</a></li>
               <li><a href="#">Silfen Play</a></li>
               <li><a href="#">SS22</a></li>
@@ -48,11 +56,13 @@
           </nav>
         </div>
         <div class="nav-logo">
-          <img
-            src="https://silfenstudio.com/wp-content/uploads/2021/10/silfen-logo-black.png"
-            alt="Logo"
-            width="164"
-          />
+          <a href="index.html">
+            <img
+              src="https://silfenstudio.com/wp-content/uploads/2021/10/silfen-logo-black.png"
+              alt="Logo"
+              width="164"
+            />
+          </a>
         </div>
         <div class="nav-actions">
           <a href="#" aria-label="login"><i class="fa-solid fa-user"></i></a>
@@ -69,42 +79,72 @@
       </div>
     </header>
     <main>
-      <div class="material-intro">
+      <div class="container1">
+        <div class="image">
+          <img src="/img/1.png" alt="1" width="500px" />
+        </div>
         <div class="text">
-          <h2>MATERIALS</h2>
+          <h1>COTTON</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a
-            urna fringilla, scelerisque lacus vitae, consequat mi. Phasellus id
-            tellus et nisi luctus malesuada. Praesent vitae porta diam. Cras
-            pulvinar massa ut velit bibendum porta. In hac habitasse platea
-            dictumst. Morbi sit amet blandit orci. Quisque libero urna, rhoncus
-            vel laoreet in, feugiat nec nulla. Vivamus sagittis dolor nunc, at
-            tincidunt justo tristique in. Vestibulum iaculis condimentum nisi,
-            et elementum nisl tempus eu.
+            Some of the SILFEN bags is made from Cotton – a fabric known as
+            <br />polluting. At SILFEN, our cotton is either made from
+            eco-friendly or organic cotton. Both materials require far less
+            water consumption than conventional cotton <br />products. Every
+            nylon product is made from eco-friendly material, meaning that the
+            journey from raw material to SILFEN bag impacts the environment as
+            little as possible.
+          </p>
+        </div>
+      </div>
+      <div class="container2">
+        <div class="text">
+          <h1>NYLON</h1>
+          <p>
+            Some of the SILFEN bags is made from Cotton – a fabric commonly
+            known as <br />polluting.At SILFEN, our cotton is either made from
+            eco-friendly or organic cotton. Both materials require far less
+            water consumption than conventional cotton <br />products. Every
+            nylon product is made from eco-friendly material, meaning that the
+            journey from raw material to SILFEN bag impacts the environment as
+            little as possible.
           </p>
         </div>
         <div class="image">
-          <img src="/img/material-front.jpg" alt="materials" width="60%" />
+          <img src="/img/2.png" alt="2" width="500px" />
         </div>
       </div>
-      <div class="material-showcase-1">
-        <div class="image-container1">
-          <img src="/img/1.png" alt="cotton fabric" width="75%" />
-          <div class="image-text"><h1>COTTON</h1></div>
+      <div class="container3">
+        <div class="image">
+          <img src="/img/3.png" alt="3" width="500px" />
         </div>
-        <div class="image-container2">
-          <img src="/img/2.png" alt="leather fabric" width="75%" />
-          <div class="image-text"><h1>LEATHER</h1></div>
+        <div class="text">
+          <h1>LEATHER</h1>
+          <p>
+            Some of the SILFEN bags is made from Cotton – a fabric commonly
+            known as polluting. At SILFEN, our cotton is either made from
+            eco-friendly or organic cotton.<br />
+            Both materials require far less water consumption than conventional
+            cotton products. Every nylon product is made from eco-friendly
+            material, meaning that the journey from raw material to SILFEN bag
+            impacts the environment as little as possible.
+          </p>
         </div>
       </div>
-      <div class="material-showcase-2">
-        <div class="image-container1">
-          <img src="/img/3.png" alt="nylon fabric" width="75%" />
-          <div class="image-text"><h1>NYLON</h1></div>
+      <div class="container2">
+        <div class="text">
+          <h1>rPET</h1>
+          <p>
+            Some of the SILFEN bags is made from Cotton – a fabric commonly
+            known as polluting. At SILFEN, our cotton is either made from
+            eco-friendly or organic cotton. Both materials require far less
+            water consumption than conventional cotton products. Every nylon
+            product is made from eco-friendly material, meaning that the journey
+            from raw material to SILFEN bag impacts the environment as little as
+            possible.
+          </p>
         </div>
-        <div class="image-container2">
-          <img src="img/4.png" alt="rPET fabric" width="75%" />
-          <div class="image-text"><h1>rPET</h1></div>
+        <div class="image">
+          <img src="/img/4.png" alt="2" width="500px" />
         </div>
       </div>
     </main>
@@ -226,6 +266,7 @@
         </div>
       </div>
     </footer>
+    <script src="productList.js"></script>
+    <script src="frontPage.js"></script>
   </body>
-  <script src="frontPage.js"></script>
 </html>
