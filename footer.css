@@ -19,6 +19,7 @@ footer p,
 
 footer h6 {
   font-weight: bold;
+  margin-bottom: 1rem;
 }
 
 .help {
@@ -63,6 +64,7 @@ footer div {
 .footer1 {
   display: flex;
   justify-content: space-between;
+  margin-top: 1rem;
 }
 
 .payment-methods a {
@@ -118,4 +120,20 @@ footer div {
   footer div h6 {
     margin-top: 5rem;
   }
+}
+
+/* THORDUR CHANGES */
+
+footer * {
+  padding: 0;
+}
+
+.connect {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.connect h6 {
+  margin-bottom: 2rem;
 }
