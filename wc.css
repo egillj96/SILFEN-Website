@@ -1,0 +1,101 @@
+:root {
+    --main-font: 'Inter', sans-serif;
+}
+
+.working_conditions img {
+    height: 100%;
+    width: 400px;
+}
+
+h1, p , h2{
+    font-family: var(--main-font);
+}
+
+.title {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    width: 20rem;
+}
+
+p {
+    width: 30rem;
+}
+
+.titlesection {
+    gap: 1rem;
+    margin: 3rem 0;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text1, .text2 {
+    margin: 3rem 0 10rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text1 p, .text2 p {
+    margin: auto;
+}
+
+.text1 img, .text2 img {
+    width: 50%;
+}
+
+.map {
+    margin: 3rem 0;
+    text-align: center;
+}
+
+.map img {
+    width: 60%;
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 980px) {
+    .titlesection, .text1 {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .title {
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    h1 {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .working_conditions img {
+        height: 40%;
+        width: 300px; 
+        margin: auto;
+    }
+    .text2 {
+        flex-direction: column-reverse;
+    }
+    .text1 img, .text2 img {
+        width: 80%;
+        margin: auto;
+    }
+    .text1 p, .text2 p {
+       margin-top: 5rem;
+       text-align: center;
+    }
+    .text1, .text2 {
+        margin: 3rem 0 5rem;
+        
+    }
+    .map img {
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+    h2 {
+        font-size: 20px;
+    }
+}
